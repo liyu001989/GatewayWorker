@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "381d5004ee01a541b7024e090505a3a7",
+    "content-hash": "0dc92ff94407635348fc584c1a062ef5",
+    "packages": [
+        {
+            "name": "legend/gatewayworker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xcxlegend/GatewayWorker.git",
+                "reference": "eab610c4f50eae1506a700e6c18fcaf008b3b3f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xcxlegend/GatewayWorker/zipball/eab610c4f50eae1506a700e6c18fcaf008b3b3f9",
+                "reference": "eab610c4f50eae1506a700e6c18fcaf008b3b3f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "workerman/workerman": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GatewayWorker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Legend.Xie",
+                    "email": "xcx_legender@qq.com"
+                }
+            ],
+            "description": "workerman/gatewayworker frame",
+            "time": "2016-09-22 09:43:44"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v3.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/Workerman.git",
+                "reference": "d6a7f02c21660e328b7a5aaea82eeb59653b313d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/Workerman/zipball/d6a7f02c21660e328b7a5aaea82eeb59653b313d",
+                "reference": "d6a7f02c21660e328b7a5aaea82eeb59653b313d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "ext-libevent": "For better performance."
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "time": "2016-09-19 02:15:51"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "legend/gatewayworker": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}

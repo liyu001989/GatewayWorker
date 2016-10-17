@@ -1,0 +1,16 @@
+{
+    "name": "liyu/gateway-worker",
+    "description": "walkor/GatewayWorker framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yu Li",
+            "email": "liyu001989@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3",
+        "legend/gatewayworker": "dev-master"
+    }
+}
