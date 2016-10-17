@@ -28,5 +28,8 @@ foreach(glob(__DIR__.'/Applications/*/start*.php') as $start_file)
 {
     require_once $start_file;
 }
+
+// 设置日志路径
+Worker::$logFile = __DIR__.'/logs/workerman.log';
 // 运行所有服务
 Worker::runAll();
