@@ -4,55 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "381d5004ee01a541b7024e090505a3a7",
-    "content-hash": "0dc92ff94407635348fc584c1a062ef5",
+    "hash": "fa921fa7659f4d4eee6184f3aa68f2dc",
+    "content-hash": "600b1a4b050c0fd6750c3f99e9b73752",
     "packages": [
         {
-            "name": "legend/gatewayworker",
-            "version": "dev-master",
+            "name": "workerman/gateway-worker",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/xcxlegend/GatewayWorker.git",
-                "reference": "eab610c4f50eae1506a700e6c18fcaf008b3b3f9"
+                "url": "https://github.com/walkor/GatewayWorker.git",
+                "reference": "0b2f416fcf49a4d54325c7f3583e801dd44d309b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xcxlegend/GatewayWorker/zipball/eab610c4f50eae1506a700e6c18fcaf008b3b3f9",
-                "reference": "eab610c4f50eae1506a700e6c18fcaf008b3b3f9",
+                "url": "https://api.github.com/repos/walkor/GatewayWorker/zipball/0b2f416fcf49a4d54325c7f3583e801dd44d309b",
+                "reference": "0b2f416fcf49a4d54325c7f3583e801dd44d309b",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3",
-                "workerman/workerman": "^3.3"
+                "workerman/workerman": ">=3.1.8"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "GatewayWorker\\": "src"
+                    "GatewayWorker\\": "./src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Legend.Xie",
-                    "email": "xcx_legender@qq.com"
-                }
+            "license": [
+                "MIT"
             ],
-            "description": "workerman/gatewayworker frame",
-            "time": "2016-09-22 09:43:44"
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "communication",
+                "distributed"
+            ],
+            "time": "2016-10-17 14:01:30"
         },
         {
             "name": "workerman/workerman",
-            "version": "v3.3.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/Workerman.git",
-                "reference": "d6a7f02c21660e328b7a5aaea82eeb59653b313d"
+                "reference": "1cecdf378f6d02ab5bcd7b8e95d8e716c98b1ce0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/Workerman/zipball/d6a7f02c21660e328b7a5aaea82eeb59653b313d",
-                "reference": "d6a7f02c21660e328b7a5aaea82eeb59653b313d",
+                "url": "https://api.github.com/repos/walkor/Workerman/zipball/1cecdf378f6d02ab5bcd7b8e95d8e716c98b1ce0",
+                "reference": "1cecdf378f6d02ab5bcd7b8e95d8e716c98b1ce0",
                 "shasum": ""
             },
             "require": {
@@ -85,19 +85,15 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2016-09-19 02:15:51"
+            "time": "2016-10-13 01:37:09"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "legend/gatewayworker": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.3"
-    },
+    "platform": [],
     "platform-dev": []
 }

@@ -15,9 +15,6 @@ use \Workerman\Worker;
 use \Workerman\WebServer;
 use \GatewayWorker\Gateway;
 use \GatewayWorker\BusinessWorker;
-use \Workerman\Autoloader;
-
-Autoloader::setRootPath(__DIR__);
 
 // gateway 进程，这里使用Text协议，可以用telnet测试
 $gateway = new Gateway("Text://0.0.0.0:8282");

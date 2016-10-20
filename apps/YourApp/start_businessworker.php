@@ -15,9 +15,6 @@ use \Workerman\Worker;
 use \Workerman\WebServer;
 use \GatewayWorker\Gateway;
 use \GatewayWorker\BusinessWorker;
-use \Workerman\Autoloader;
-
-Autoloader::setRootPath(__DIR__);
 
 // bussinessWorker 进程
 $worker = new BusinessWorker();
